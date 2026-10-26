@@ -1,0 +1,38 @@
+{
+  "version": "v1.0-decision-tree",
+  "data_source": "midterm facility_reservations.csv",
+  "accuracy": 0.4125,
+  "precision": 0.48449088623507236,
+  "recall": 0.4125,
+  "f1": 0.4299968147794234,
+  "n_train": 320,
+  "n_test": 80,
+  "top_predictors": [
+    [
+      "Participants",
+      0.487
+    ],
+    [
+      "Purpose_Training",
+      0.193
+    ],
+    [
+      "User_Type_Organization",
+      0.081
+    ],
+    [
+      "Purpose_Seminar",
+      0.08
+    ],
+    [
+      "User_Type_Student",
+      0.052
+    ]
+  ],
+  "midterm_reported": {
+    "accuracy": 0.412,
+    "precision": 0.484,
+    "recall": 0.412,
+    "f1": 0.43
+  }
+}
